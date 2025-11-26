@@ -2,7 +2,7 @@
 
 ## Url
 
-https://www.mroch4.github.io/StwThenAndNow/
+https://mroch4.github.io/StwThenAndNow/
 
 ## Used libraries
 
@@ -11,9 +11,13 @@ https://www.mroch4.github.io/StwThenAndNow/
 
 ## Photos timeline
 
-1. 2016/06/07 - entries: 4, 6, 8, 25, 26
+1. 2009/06/15 - entries: 1, 2, 3, 4
+2. 2010/05/22 - entry: 5
+3. 2012/06/25 - entry: 6
+4. 2012/06/27 - entry: 7
+5. 2013/10/31 - entries: 8, 9
+6. 2013/12/29 - entries: 10, 11, 12, 13
+7. 2014/02/24 - entries: 14, 15
 
 [def]: https://getbootstrap.com/
 [def2]: https://github.com/Leaflet/Leaflet
-[def4]: https://github.com/ichim/LeafletForBlazor-NuGet
-[def5]: https://www.linkedin.com/posts/marcin-rochowski-68443921b_pozna%C5%84-dawniej-dzi%C5%9B-activity-6862803538507030528-0EOT?utm_source=share&utm_medium=member_desktop
