@@ -1,17 +1,6 @@
-﻿<div class="d-flex flex-column gap-3">
-    <div class="flex-center gap-2">
-        @foreach (var button in SocialButtons)
-        {
-            <ShareButton Type="button" />
-        }
-    </div>
-    <h6>@Labels.Sources</h6>
-    <ul>
-        @foreach (var item in NavItems)
-        {
-            <li>
-                <a href="@item.Route" target="_blank">@item.Label</a>
-            </li>
-        }
-    </ul>
+﻿<div class="flex-center gap-2">
+    @foreach (var button in SocialButtons)
+    {
+        <ShareButton Type="button" />
+    }
 </div>

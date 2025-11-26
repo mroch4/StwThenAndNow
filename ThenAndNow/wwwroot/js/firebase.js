@@ -1,12 +1,11 @@
 ﻿firebase.initializeApp({
-    apiKey: "AIzaSyDXvvPWVSvKQAr4sLfYskstSKLRYfRsSaw",
-    authDomain: "poznandawniejdzis-79c46.firebaseapp.com",
-    databaseURL: "https://poznandawniejdzis-79c46-default-rtdb.firebaseio.com",
-    projectId: "poznandawniejdzis-79c46",
-    storageBucket: "poznandawniejdzis-79c46.firebasestorage.app",
-    messagingSenderId: "1033991145858",
-    appId: "1:1033991145858:web:28d914c9b8fc24ef88679b",
-    measurementId: "G-MZRRG17H7D"
+    apiKey: "AIzaSyCrzqTh1AEGBQgIA2rxEGmZwoF6VFx81x4",
+    authDomain: "stwdawniejdzis.firebaseapp.com",
+    databaseURL: "https://stwdawniejdzis-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "stwdawniejdzis",
+    storageBucket: "stwdawniejdzis.firebasestorage.app",
+    messagingSenderId: "1094028198106",
+    appId: "1:1094028198106:web:382dfe24a37048ea6a25e3"
 });
 
 const database = firebase.database();

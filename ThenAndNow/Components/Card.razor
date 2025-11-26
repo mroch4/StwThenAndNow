@@ -43,14 +43,14 @@
             <figure class="text-center mt-3">
                 <div class="image-container">
                     <picture class="image-layer @(OriginalPhoto ? "visible" : "hidden")">
-                        <source media="(max-width: 576px)" srcset="@GetImagePath(ImageSize.Sm, true)" />
-                        <source media="(max-width: 992px)" srcset="@GetImagePath(ImageSize.Md, true)" />
-                        <img alt="@Entry.Title" loading="lazy" src="@GetImagePath(ImageSize.Lg, true)" />
+                        <source media="(max-width: 576px)" srcset="@GetImagePath(true)" />
+                        <source media="(max-width: 992px)" srcset="@GetImagePath(true)" />
+                        <img alt="@Entry.Title" loading="lazy" src="@GetImagePath(true)" />
                     </picture>
                     <picture class="image-layer @(OriginalPhoto ? "hidden" : "visible")">
-                        <source media="(max-width: 576px)" srcset="@GetImagePath(ImageSize.Sm)" />
-                        <source media="(max-width: 992px)" srcset="@GetImagePath(ImageSize.Md)" />
-                        <img alt="@Entry.Title" loading="lazy" src="@GetImagePath(ImageSize.Lg)" />
+                        <source media="(max-width: 576px)" srcset="@GetImagePath()" />
+                        <source media="(max-width: 992px)" srcset="@GetImagePath()" />
+                        <img alt="@Entry.Title" loading="lazy" src="@GetImagePath()" />
                     </picture>
                     <div class="image-toggle-overlay" @onclick="@(() => { OriginalPhoto = !OriginalPhoto; })"></div>
                 </div>

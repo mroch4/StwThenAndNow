@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using System.Globalization;
 using ThenAndNow.Constants;
-using ThenAndNow.Enums;
 using ThenAndNow.Interfaces;
 using ThenAndNow.Models.Configuration;
 using ThenAndNow.Models.DTO;
@@ -102,10 +101,10 @@ namespace ThenAndNow.Components
                 : Entry.Timestamp.Now.ToString("Y", CultureInfo.GetCultureInfo(Constants.Constants.CultureInfo));
         }
 
-        private string GetImagePath(ImageSize imageSize, bool isOriginal = false)
+        private string GetImagePath(bool isOriginal = false)
         {
             var suffix = isOriginal ? "a" : "b";
-            return $"photos/{imageSize.ToString().ToLower()}/{Entry.Id}{suffix}.webp";
+            return $"photos/{Entry.Id}{suffix}.jpg";
         }
 
         private string GetLocation()

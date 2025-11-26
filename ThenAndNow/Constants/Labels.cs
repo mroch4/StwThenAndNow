@@ -63,7 +63,7 @@
 
         #region Layout > Main
 
-        public const string PageTitle = "Poznań | Dawniej & Dziś";
+        public const string PageTitle = "Stalowa Wola | Dawniej & Dziś";
 
         #endregion
 
@@ -75,10 +75,7 @@
 
         #region Pages > Contact
 
-        public const string Cyryl = "CYRYL - Wirtualne Muzeum Historii Poznania";
         public const string Email = "rochowski.marcin(at)gmail.com";
-        public const string Fotopolska = "FOTOPOLSKA - Baza zdjęć Poznania";
-        public const string Sources = "Zasoby zdjęć historycznych:";
 
         #endregion
 

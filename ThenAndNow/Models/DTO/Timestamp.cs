@@ -12,6 +12,6 @@ namespace ThenAndNow.Models.DTO
         public long NowNumber { get; set; }
 
         [JsonIgnore]
-        public DateTime Now => DateTime.TryParseExact($"20{NowNumber}", Constants.Constants.EntryDateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out var result) ? result : new DateTime();
+        public DateTime Now => DateTime.TryParseExact(NowNumber.ToString(), Constants.Constants.EntryDateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None, out var result) ? result : new DateTime();
     }
 }
