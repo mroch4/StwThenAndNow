@@ -1,4 +1,4 @@
-# Poznań - Dawniej&Dziś | Poznań - Then&Now
+# Stalowa Wola - Dawniej&Dziś | Stalowa Wola - Then&Now
 
 ## Url
 

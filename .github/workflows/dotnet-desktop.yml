@@ -22,6 +22,9 @@ jobs:
       - name: Publish
         run: dotnet publish -c Release -o publish
 
+      - name: Add CNAME file
+        run: echo "www.stalowawoladawniejdzis.pl" > publish/wwwroot/CNAME
+
       - name: Create 404.html
         run: cp publish/wwwroot/index.html publish/wwwroot/404.html
 
