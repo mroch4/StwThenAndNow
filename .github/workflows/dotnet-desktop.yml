@@ -1,0 +1,35 @@
+name: Deploy Blazor WASM to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Install .NET WASM Build Tools
+        run: dotnet workload install wasm-tools
+
+      - name: Publish
+        run: dotnet publish -c Release -o publish
+
+      - name: Create 404.html
+        run: cp publish/wwwroot/index.html publish/wwwroot/404.html
+
+      - name: Add CNAME file
+        run: echo "www.poznan-dawniej-dzis.pl" > publish/wwwroot/CNAME
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish/wwwroot

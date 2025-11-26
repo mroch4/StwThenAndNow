@@ -1,0 +1,17 @@
+﻿<div class="flex-center flex-wrap gap-3 mb-4">
+    @if (QueryParams.CurrentPage > 1)
+    {
+        <span class="pointer" @onclick="() => GoToPage(0)">&lt;&lt;</span>
+        <span class="pointer" @onclick="Previous">&lt;</span>
+    }
+    @for (var i = 0; i < PagesCount; i++)
+    {
+        var pageIndex = i + 1;
+        <span class="pointer @GetCurrentPageClass(i)" @onclick="() => GoToPage(pageIndex)">@pageIndex</span>
+    }
+    @if (QueryParams.CurrentPage < PagesCount)
+    {
+        <span class="pointer" @onclick="Next">&gt;</span>
+        <span class="pointer" @onclick="() => GoToPage(PagesCount)">&gt;&gt;</span>
+    }
+</div>

@@ -1,0 +1,21 @@
+﻿@using ThenAndNow.Enums
+
+<button class="btn btn-sm btn-social @Name">
+    @if (Type == SocialMediaType.Copy)
+    {
+        if (Copied)
+        {
+            <img alt="@Name" height="@Constants.IconSize" src="@("icons/socials/copied.svg")" width="@Constants.IconSize" />
+        }
+        else
+        {
+            <img alt="@Name" height="@Constants.IconSize" src="@($"icons/socials/{Name}.svg")" width="@Constants.IconSize" @onclick="CopyToClipboard" />
+        }
+    }
+    else
+    {
+        <a href="@(Route + Url)" rel="noopener noreferrer" target="_blank">
+            <img alt="@Name" height="@Constants.IconSize" src="@($"icons/socials/{Name}.svg")" width="@Constants.IconSize" />
+        </a>
+    }
+</button>
