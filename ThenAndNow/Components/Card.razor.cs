@@ -104,7 +104,7 @@ namespace ThenAndNow.Components
         private string GetImagePath(bool isOriginal = false)
         {
             var suffix = isOriginal ? "a" : "b";
-            return $"photos/{Entry.Id}{suffix}.jpg";
+            return $"photos/{Entry.Id}{suffix}.webp";
         }
 
         private string GetLocation()

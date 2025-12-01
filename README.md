@@ -2,7 +2,7 @@
 
 ## Url
 
-https://mroch4.github.io/StwThenAndNow/
+https://stalowawoladawniejdzis.pl
 
 ## Used libraries
 

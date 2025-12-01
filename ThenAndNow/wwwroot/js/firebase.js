@@ -5,7 +5,8 @@
     projectId: "stwdawniejdzis",
     storageBucket: "stwdawniejdzis.firebasestorage.app",
     messagingSenderId: "1094028198106",
-    appId: "1:1094028198106:web:382dfe24a37048ea6a25e3"
+    appId: "1:1094028198106:web:382dfe24a37048ea6a25e3",
+    measurementId: "G-4MM9TV5VRL"
 });
 
 const database = firebase.database();
