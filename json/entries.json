@@ -1,61 +1,61 @@
 [
   {
     "a": 1,
-    "b": "Skrzyżowanie KEN x Wojska Polskiego",
+    "b": "Skrzyżowanie ulic KEN i Wojska Polskiego",
     "c": {
       "a": 50.57461,
       "b": 22.05785
     },
     "d": {
-      "a": "koniec lat 80. XX wieku",
+      "a": "początek XXI wieku",
       "b": 200906151543
     }
   },
   {
     "a": 2,
-    "b": "Krzyż przy ul. KEN",
+    "b": "Wieżowce osiedla Centralnego",
     "c": {
       "a": 50.57544,
       "b": 22.06073
     },
     "d": {
-      "a": "koniec lat 80. XX wieku",
+      "a": "1988",
       "b": 200906151543
     }
   },
   {
     "a": 3,
-    "b": "Plac zabaw między wieżowcami KEN",
+    "b": "Plac zabaw na osiedlu Centralnym",
     "c": {
       "a": 50.57422,
       "b": 22.06073
     },
     "d": {
-      "a": "koniec lat 80. XX wieku",
+      "a": "1988",
       "b": 200906151606
     }
   },
   {
     "a": 4,
-    "b": "Bar mleczny (ul. Staszica)",
+    "b": "Ulica Staszica",
     "c": {
       "a": 50.56562,
       "b": 22.06647
     },
     "d": {
-      "a": "lata 80. XX wieku",
+      "a": "1988",
       "b": 200906151703
     }
   },
   {
     "a": 5,
-    "b": "Pawilony handlowe przy ul. KEN",
+    "b": "Pawilony handlowe",
     "c": {
       "a": 50.5738,
       "b": 22.05771
     },
     "d": {
-      "a": "koniec lat 80. XX wieku",
+      "a": "1988",
       "b": 201005221403
     }
   },
@@ -169,13 +169,13 @@
   },
   {
     "a": 15,
-    "b": "Klasztor",
+    "b": "Klasztor Braci Mniejszych Kapucynów",
     "c": {
       "a": 50.58597,
       "b": 22.04548
     },
     "d": {
-      "a": "",
+      "a": "1940",
       "b": 201402241242
     }
   }
